@@ -1,0 +1,9 @@
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\bin\Debug\Database.dacpac
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\Model.xml
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\refactor.xml
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\postdeploy.sql
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\predeploy.sql
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\Database.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\obj\Debug\Database.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\bin\Debug\Database.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Database\bin\Debug\Database.pdb

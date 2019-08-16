@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MicrosoftChatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Messages" Relationship="MicrosoftChatModel.FK_Messages_users" FromRole="user" ToRole="Message" />
+    <NavigationProperty Name="Messages1" Relationship="MicrosoftChatModel.FK_Messages_users1" FromRole="user" ToRole="Message" />
+  </EntityType>
+  <EntityContainer Name="MicrosoftChatEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="users" EntityType="Self.user" />
+    <EntitySet Name="Messages" EntityType="MicrosoftChatModel.Message" />
+    <AssociationSet Name="FK_Messages_users" Association="MicrosoftChatModel.FK_Messages_users">
+      <End Role="user" EntitySet="users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_users1" Association="MicrosoftChatModel.FK_Messages_users1">
+      <End Role="user" EntitySet="users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Text" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserIdFrom" Type="Int32" Nullable="false" />
+    <Property Name="UserIdTo" Type="Int32" Nullable="false" />
+    <Property Name="CreatedOn" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="user" Relationship="MicrosoftChatModel.FK_Messages_users" FromRole="Message" ToRole="user" />
+    <NavigationProperty Name="user1" Relationship="MicrosoftChatModel.FK_Messages_users1" FromRole="Message" ToRole="user" />
+  </EntityType>
+  <Association Name="FK_Messages_users">
+    <End Type="MicrosoftChatModel.user" Role="user" Multiplicity="1" />
+    <End Type="MicrosoftChatModel.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="UserIdFrom" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_users1">
+    <End Type="MicrosoftChatModel.user" Role="user" Multiplicity="1" />
+    <End Type="MicrosoftChatModel.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="UserIdTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

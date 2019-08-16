@@ -1,0 +1,11 @@
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\Chat.DataAccessLayer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\Chat.DataAccessLayer.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\obj\Debug\Chat.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\obj\Debug\Chat.DataAccessLayer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\obj\Debug\Chat.DataAccessLayer.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\obj\Debug\Chat.DataAccessLayer.csproj.CopyComplete
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\Chat.DataAccessLayer.dll.config
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml

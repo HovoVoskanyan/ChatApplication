@@ -1,0 +1,12 @@
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\Chat.BusinessLogicLayer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\Chat.BusinessLogicLayer.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\obj\Debug\Chat.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\obj\Debug\Chat.BusinessLogicLayer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\obj\Debug\Chat.BusinessLogicLayer.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\Chat.DataAccessLayer.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\Chat.DataAccessLayer.pdb
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\Chat.DataAccessLayer.dll.config
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\obj\Debug\Chat.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\Hovhannes\Desktop\MicChat\Chat.PresentationLayer\Chat.BusinessLogicLayer\obj\Debug\Chat.BusinessLogicLayer.csproj.CopyComplete
